@@ -1,0 +1,41 @@
+dag,image,max_temp,min_temp,windbft,windkmh,windknp,windms,windrgr,windr,neersl_perc_dag,zond_perc_dag,Rotterdam
+14-03-2025,halfbewolkt,6,3,4,21,12,6,105,ZO,0,47,Rotterdam
+15-03-2025,halfbewolkt,7,0,4,21,12,6,64,NO,0,56,Rotterdam
+16-03-2025,halfbewolkt,8,0,3,18,10,5,87,O,0,61,Rotterdam
+17-03-2025,halfbewolkt,7,2,3,18,10,5,82,O,0,50,Rotterdam
+18-03-2025,halfbewolkt,9,0,4,21,12,6,86,O,0,65,Rotterdam
+14-03-2025,halfbewolkt,7,2,3,14,8,4,30,NO,0,39,Amsterdam
+15-03-2025,halfbewolkt,7,0,3,14,8,4,35,NO,0,58,Amsterdam
+16-03-2025,halfbewolkt,9,0,3,14,8,4,68,NO,0,58,Amsterdam
+17-03-2025,halfbewolkt,9,2,3,14,8,4,69,NO,0,50,Amsterdam
+18-03-2025,halfbewolkt,10,0,3,14,8,4,76,NO,0,65,Amsterdam
+14-03-2025,halfbewolkt,7,0,3,14,8,4,31,NO,0,46,Utrecht
+15-03-2025,halfbewolkt,7,-1,3,18,10,5,36,NO,0,50,Utrecht
+16-03-2025,halfbewolkt,9,-1,3,14,8,4,67,NO,0,58,Utrecht
+17-03-2025,halfbewolkt,9,1,3,18,10,5,67,NO,0,50,Utrecht
+18-03-2025,halfbewolkt,9,-1,3,18,10,5,74,NO,0,64,Utrecht
+14-03-2025,halfbewolkt,5,4,5,28,16,8,107,ZO,0,59,Den Haag
+15-03-2025,halfbewolkt,6,2,4,25,14,7,64,NO,0,60,Den Haag
+16-03-2025,halfbewolkt,6,2,4,25,14,7,67,NO,0,63,Den Haag
+17-03-2025,halfbewolkt,8,3,4,25,14,7,69,NO,0,50,Den Haag
+18-03-2025,halfbewolkt,8,1,4,25,14,7,77,NO,0,65,Den Haag
+14-03-2025,halfbewolkt,5,0,2,7,4,2,41,NO,0,44,Maastricht
+15-03-2025,halfbewolkt,6,-2,2,10,6,3,38,NO,0,47,Maastricht
+16-03-2025,halfbewolkt,7,-1,2,10,6,3,37,NO,0,51,Maastricht
+17-03-2025,halfbewolkt,7,0,2,10,6,3,45,NO,0,43,Maastricht
+18-03-2025,halfbewolkt,9,-2,2,10,6,3,59,NO,0,64,Maastricht
+14-03-2025,halfbewolkt,7,3,3,18,10,5,22,NO,0,48,Vlissingen
+15-03-2025,halfbewolkt,7,-1,4,21,12,6,30,NO,0,53,Vlissingen
+16-03-2025,halfbewolkt,8,-1,3,18,10,5,30,NO,0,63,Vlissingen
+17-03-2025,halfbewolkt,8,1,3,18,10,5,39,NO,0,57,Vlissingen
+18-03-2025,halfbewolkt,11,-1,3,18,10,5,53,NO,0,65,Vlissingen
+14-03-2025,halfbewolkt,5,2,4,25,14,7,108,ZO,0,58,Leeuwarden
+15-03-2025,halfbewolkt,5,2,4,21,12,6,64,NO,0,62,Leeuwarden
+16-03-2025,halfbewolkt,6,2,4,21,12,6,139,ZO,0,53,Leeuwarden
+17-03-2025,halfbewolkt,6,3,4,21,12,6,123,ZO,0,62,Leeuwarden
+18-03-2025,halfbewolkt,6,2,4,21,12,6,120,ZO,0,64,Leeuwarden
+14-03-2025,halfbewolkt,6,0,3,18,10,5,18,NO,0,47,Groningen
+15-03-2025,halfbewolkt,7,-1,3,18,10,5,31,NO,0,55,Groningen
+16-03-2025,halfbewolkt,9,-1,3,14,8,4,114,ZO,0,51,Groningen
+17-03-2025,halfbewolkt,7,1,3,14,8,4,104,ZO,0,54,Groningen
+18-03-2025,halfbewolkt,9,-1,3,14,8,4,105,ZO,0,63,Groningen
