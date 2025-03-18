@@ -6,12 +6,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 API_KEY = os.getenv('API_KEY')
 
-steden = ['Rotterdam', 'Amsterdam', 'Utrecht', 'Den Haag', 'Maastricht',
-        'Vlissingen', 'Leeuwarden', 'Groningen']
-DATA_WEER_TYPE = ['wk_verw', 'uur_verw', 'liveweer']
+steden = ('Rotterdam', 'Amsterdam', 'Utrecht', 'Den Haag', 'Maastricht',
+        'Vlissingen', 'Leeuwarden', 'Groningen')
+
+DATA_WEER_TYPE = ('wk_verw', 'uur_verw', 'liveweer')
 
 class WeatherCall:
     """Call API voor data, input api key en stad naam of list met indexnr"""
@@ -26,8 +26,7 @@ class WeatherCall:
         )
         self.data_set_type = data_set_type
         self.save_path = (
-            fr'C:\Python homedirectory\Weather_project\database\weather_data\
-            weather_data_{self.data_set_type}.csv'
+            fr'C:\Python homedirectory\weather_project\data\weather_data\weather_data_{self.data_set_type}.csv'
         )
 
     def call_api(self):
@@ -41,7 +40,9 @@ class WeatherCall:
 
     def transform_data(self, data, path ):
         df = pd.DataFrame(data[self.data_set_type])
-        df[self.stad] = self.stad
+        df['stad'] = self.stad
+        df['timestamp_api'] = pd.Timestamp.now().strftime('%d-%m-%y %H:%M')
+
 
         #check if CSV already exist to determine whethe to write the header
         if not os.path.exists(path):
