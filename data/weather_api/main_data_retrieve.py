@@ -59,3 +59,5 @@ for data_type in DATA_WEER_TYPE:
         weather = WeatherCall(API_KEY, stad, data_type)
         api_data = weather.call_api()
         weather.transform_data(api_data,weather.save_path)
+
+# Hierna transform runnen

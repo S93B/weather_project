@@ -1,4 +1,5 @@
 import pandas as pd
+# TRANSFORM NA DATA VERZAMELING
 
 DATA_WEER_TYPE = ('wk_verw', 'uur_verw', 'liveweer')
 
